@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  
+.image-card{
+    object-fit: cover;
+}
+
+.colors:hover .red {
+    transition: 0.3s;
+    color: red;
+}
+
+.colors:hover .orange {
+    transition: 0.3s;
+    color: orange;
+}
+
+.colors:hover .yellow {
+    transition: 0.3s;
+    color: yellow;
+}
+
+.colors:hover .green {
+    transition: 0.3s;
+    color: green;
+}
+
+.colors:hover .blue {
+    transition: 0.3s;
+    color: blue;
+}
+
+.colors:hover .purple {
+    transition: 0.3s;
+    color: purple;
+}
+
+.colors:hover .pink {
+    transition: 0.3s;
+    color: pink;
+}
