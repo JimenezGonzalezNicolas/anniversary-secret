@@ -1,5 +1,6 @@
 import React from "react";
 import 'swiper/css';
+import "../assets/css/styles.css";
 
 import a1 from "../assets/img/1.jpg";
 import a9 from "../assets/img/10.jpg";
@@ -101,11 +102,11 @@ export default function Slider() {
 
         <>
             <div className="w-full flex justify-center bg-black">
-                <p className="font-bold font-serif text-white text-4xl p-5">
+                <p className="font-bold  text-white text-4xl p-5 cursor-pointer">
                     Un conjunto de recuerdos maravillosos llenos de alegría
                 </p>
             </div>
-            <div className="min-h-screen grid place-items-center font-serif">
+            <div className="h-auto grid place-items-center">
                 <header className="flex overflow-hidden h-[50vw] bg-black">
                     {columns.map((images, columnIndex) => {
                         const animationClass = columnIndex % 2 === 0 ? 'animate-slide-up' : 'animate-slide-down';
@@ -134,18 +135,18 @@ export default function Slider() {
                 </header>
             </div>
             <div className="w-full flex justify-center bg-black">
-                <p className="w-1/2 font-serif text-white text-xl p-5 colors">
+                <p className="w-full lg:w-1/2 text-white text-xl p-5 colors cursor-pointer">
                     Debes preguntarte por qué las fotos están en blanco y negro, pero al elegir una
                     foto verás que toma color cada recuerdo contigo es eso para mi,
                     una vida llena de
 
-                    <span className="red font-serif pl-1">c</span>
-                    <span className="orange font-serif">o</span>
-                    <span className="yellow font-serif">l</span>
-                    <span className="green font-serif">o</span>
-                    <span className="blue font-serif">r</span>
-                    <span className="purple font-serif">e</span>
-                    <span className="pink font-serif">s</span>
+                    <span className="red  pl-1">c</span>
+                    <span className="orange ">o</span>
+                    <span className="yellow ">l</span>
+                    <span className="green ">o</span>
+                    <span className="blue ">r</span>
+                    <span className="purple ">e</span>
+                    <span className="pink ">s</span>
 
                 </p>
             </div>
